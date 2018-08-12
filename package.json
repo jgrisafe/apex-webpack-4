@@ -5,6 +5,7 @@
   "main": "none",
   "scripts": {
     "build": "rm -rf ./functions && webpack",
+    "deploy": "apex deploy --env-file ./env.json",
     "test": "yarn test"
   },
   "author": "Joey Grisafe <jgrisafe@gmail.com>",

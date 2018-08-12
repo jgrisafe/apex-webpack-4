@@ -32,12 +32,7 @@ module.exports = {
     ],
   },
   plugins: [
-    new Webpack.NoEmitOnErrorsPlugin(),
-    new Webpack.DefinePlugin({
-      'process.env': {
-        NODE_ENV: JSON.stringify('production'),
-      },
-    })
+    new Webpack.NoEmitOnErrorsPlugin()
   ],
   optimization: {
     minimize: false
